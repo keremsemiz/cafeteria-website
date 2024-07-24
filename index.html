@@ -3,42 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Cooper+Hewitt:wght@400;707&family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
     <title>NMS Cafeteria</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <div class="header-background"></div>
             <div class="logo">NMS-CAFETERIA</div>
-            <nav class="navigation">
+            <nav class="nav">
                 <div class="nav-item">About Us</div>
                 <div class="nav-item">Features</div>
-                <div class="sign-in-button"></div>
-                <div class="sign-in-text">Sign in</div>
+                <div class="nav-item button-signin">Sign in</div>
             </nav>
         </header>
-        <div class="main-image">
-            <div class="gradient-overlay"></div>
-            <img src="/assets/food.jpg" alt="Food Image">
-        </div>
-        <section class="intro">
-            <div class="intro-text">
+
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <img src="/assets/food.jpg" alt="Food" class="hero-image">
+            <div class="hero-text">
                 <h1>Order food the easy way</h1>
                 <p>Operated by students, with love for the Nelson Mandela School community – an effortless way to enjoy your favorite cafeteria meals.</p>
-            </div>
-            <div class="intro-buttons">
-                <div class="order-food-button">Order Food</div>
-                <div class="contact-us-button">Contact Us</div>
+                <div class="hero-buttons">
+                    <button class="btn orange">Order Food</button>
+                    <button class="btn white">Contact Us</button>
+                </div>
             </div>
         </section>
+
         <section class="about-us">
             <h2>About Us</h2>
             <p>Welcome to our unofficial Nelson Mandela School cafeteria ordering website, developed by Vibbodh Somani. Our aim is to simplify your meal ordering experience and enhance your daily routine at the cafeteria. We hope to make your visits more convenient and enjoyable.</p>
         </section>
+
         <section class="features">
             <h2>Features</h2>
+            <div class="feature-cards">
+                <div class="feature-card orange">
+                    <img src="https://via.placeholder.com/263x115" alt="Modern UI">
+                    <h3>A modern UI</h3>
+                    <p>An upgrade from our previous website, offering a sleeker design and improved User Experience.</p>
+                </div>
+                <div class="feature-card white">
+                    <h3>Automation</h3>
+                    <p>Our goal with this new system is to reduce wait times in line, automate and enhance the food ordering process. We also want to make the staff’s work less tedious.</p>
+                    <img src="https://via.placeholder.com/133x133" alt="Automation">
+                </div>
+                <div class="feature-card orange">
+                    <h3>Data Protection</h3>
+                    <p>We minimize data storage and build upon established website practices. All code for this website is publicly accessible on GitHub.</p>
+                    <img src="https://via.placeholder.com/103x103" alt="Data Protection">
+                </div>
+                <div class="feature-card white">
+                    <h3>Learning</h3>
+                    <p>School students will actively contribute to the ongoing development of this website, fostering valuable learning opportunities and hands-on experience in web development.</p>
+                    <img src="https://via.placeholder.com/130x130" alt="Learning">
+                </div>
+            </div>
         </section>
     </div>
 </body>
