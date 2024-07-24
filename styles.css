@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Cooper Hewitt', sans-serif;
+    background-color: #010005;
+    color: white;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.header-background {
+    width: 100%;
+    height: 100px;
+    background-color: #010005;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    position: absolute;
+    left: 98px;
+    top: 24px;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.navigation {
+    position: absolute;
+    left: 548px;
+    top: 32px;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item {
+    font-size: 28px;
+    font-weight: 707;
+    cursor: pointer;
+}
+
+.sign-in-button {
+    position: absolute;
+    left: 1232px;
+    top: 16px;
+    width: 130px;
+    height: 60px;
+    background-color: #FF6F00;
+    border-radius: 35px;
+}
+
+.sign-in-text {
+    position: absolute;
+    left: 1259px;
+    top: 29px;
+    font-size: 26px;
+    font-weight: 707;
+}
+
+.main-image {
+    width: 1362px;
+    height: 609px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.main-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, #010005 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.intro {
+    position: relative;
+    margin-left: 98px;
+    margin-top: -372px;
+    width: 525px;
+    height: 336px;
+}
+
+.intro h1 {
+    font-size: 75px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 1.08;
+}
+
+.intro p {
+    margin-top: 28px;
+    font-size: 20px;
+    font-weight: 707;
+    text-transform: capitalize;
+    line-height: 1.08;
+}
+
+.intro-buttons {
+    position: relative;
+    top: 70px;
+}
+
+.order-food-button,
+.contact-us-button {
+    display: inline-block;
+    width: 179px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 35px;
+    font-size: 24px;
+    font-weight: 707;
+    cursor: pointer;
+}
+
+.order-food-button {
+    background-color: #FF6F00;
+    color: white;
+}
+
+.contact-us-button {
+    margin-left: 17px;
+    background-color: white;
+    color: #010005;
+}
